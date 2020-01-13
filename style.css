@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.heading{
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+
+.contact-info{
+    margin-left: 15px;
+}
+
+.contact{
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid;
+    border-color: black;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+#conversation{
+    order: 2;
+    width: 75%;
+}
+
+#left{
+    order:1;
+    width: 25%;
+}
+
+#contactName{
+    padding: 0;
+    margin-top: 0;
+}
+
+#boxOfMesages{
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    margin:0;
+    height: 500px;
+}
+
+#inputMesage input{
+    width: 89%;
+    border-radius: 50px;
+}
+
+#inputMesage button{
+    width: 10%;
+}
+
+#search-contact{
+    width: 100%;
+}
+
+#mesage{
+    height: 20px;
+}
